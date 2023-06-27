@@ -1,0 +1,10 @@
+.hire-me-section {
+  background-color: #212428;
+  padding-bottom: 3em !important;
+}
+
+.contact-left-bg {
+  background-image: url(../../assets/contact-me.gif);
+  background-position: center;
+  background-size: auto;
+}

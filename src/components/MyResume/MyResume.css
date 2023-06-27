@@ -1,0 +1,15 @@
+.my-resume-section-title {
+  margin: 0;
+}
+.section-divider {
+  margin: 3em auto 0 auto;
+  height: 2px;
+  width: 70%;
+  background-image: linear-gradient(to right, #6a67ce, #00bfa6);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .resume-section {
+    padding-right: 1rem !important;
+  }
+}

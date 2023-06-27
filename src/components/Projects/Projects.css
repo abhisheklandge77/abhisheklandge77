@@ -1,0 +1,25 @@
+.projects-section {
+  padding-bottom: 4em !important;
+}
+
+.project-1 {
+  background-image: url(../../assets/find-my-pet-project.png);
+}
+
+.project-2 {
+  background-image: url(../../assets/clothing-store-project.png);
+}
+
+.project-3 {
+  background-image: url(../../assets/movie-heist-project.png);
+}
+
+.project-4 {
+  background-image: url(../../assets/live-chat-project.png);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .project-cards {
+    padding: 1rem !important;
+  }
+}

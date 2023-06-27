@@ -1,0 +1,9 @@
+.skills-section {
+  margin-bottom: 5em;
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .skills-container {
+    padding: 1rem !important;
+  }
+}

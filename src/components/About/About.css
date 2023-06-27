@@ -1,0 +1,24 @@
+.about-section-title {
+  margin: 0;
+}
+.social-media-icon {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-right: 1rem !important;
+}
+.social-media-icon a {
+  padding: 0.4rem !important;
+}
+.section-divider {
+  margin: 3em auto 0 auto;
+  height: 2px;
+  width: 70%;
+  background-image: linear-gradient(to right, #6a67ce, #00bfa6);
+}
+
+@media screen and (min-width: 320px) and (max-width: 768px) {
+  .about-section {
+    padding: 4em 2em !important;
+  }
+}

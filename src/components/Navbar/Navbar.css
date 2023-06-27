@@ -1,0 +1,112 @@
+.navbar-container {
+  /* background-color: #fff; */
+  background-color: #212428;
+  color: #0f0c21;
+  padding: 0.5rem 1rem;
+  /* border: 1px solid red; */
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 100%;
+  transition: all 0.5s ease-in;
+  z-index: 1000;
+  /* border-bottom: 1px solid #e4e4e4; */
+}
+.scrolled-navbar {
+  position: fixed;
+  background-color: #0f0c21;
+  color: #fff;
+  /* box-shadow: 10px 10px 20px #0F0C21; */
+  top: 0;
+  left: 0;
+}
+.logo-container {
+  /* border: 1px solid green; */
+  display: flex;
+  align-items: center;
+}
+.logo-container img {
+  width: 55px;
+  height: 50px;
+}
+.logo-text {
+  font-size: 20px;
+  margin: 0 0 0 0.5rem;
+  font-weight: bold;
+  color: #fff;
+}
+.logo-text span {
+  margin-left: 0.2rem;
+  color: #00bfa6;
+}
+.nav-link-container {
+  display: flex;
+  justify-content: space-evenly;
+  /* border: 1px solid blue; */
+  flex-grow: 0.45;
+  color: #fff;
+  margin-bottom: 0;
+}
+
+.nav-link-container li {
+  list-style: none;
+  cursor: pointer;
+  font-weight: 700;
+}
+.nav-link-container li:hover {
+  transition: 0.3s all;
+  color: #00bfa6;
+}
+.active-tab {
+  color: #00bfa6;
+}
+.nav-menu {
+  display: none;
+}
+
+.nav-label {
+  text-decoration: none !important;
+  color: #fff;
+}
+.nav-label-active {
+  color: #00bfa6;
+  text-decoration: none !important;
+}
+@media only screen and (max-width: 768px) {
+  .show-menu {
+    display: flex;
+    transform: translateX(0%);
+  }
+  .hide-menu {
+    transform: translateX(100%);
+  }
+  .nav-menu {
+    display: block;
+    margin-right: 1.5rem;
+    color: #fff;
+  }
+  .nav-menu i {
+    font-size: 24px;
+  }
+  .nav-link-container {
+    position: fixed;
+    inset: 65px 0 0 0;
+    flex-direction: column;
+    background-color: #eeeeee;
+    align-items: center;
+    justify-content: flex-start;
+    padding: min(20vh, 5rem) 2rem;
+    z-index: 1000;
+    transition: all 0.3s ease-in;
+    margin-bottom: 0;
+  }
+  .nav-link-container li {
+    margin-bottom: 2rem;
+  }
+  .scrolled-navbar > .nav-link-container {
+    color: #0f0c21;
+  }
+  .nav-label {
+    color: #0f0c21;
+  }
+}
