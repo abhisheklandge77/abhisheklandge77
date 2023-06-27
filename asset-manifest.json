@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/abhisheklandge77/static/css/main.151a82d9.css",
-    "main.js": "/abhisheklandge77/static/js/main.abd13e9f.js",
+    "main.css": "/abhisheklandge77/static/css/main.c1c9c7bd.css",
+    "main.js": "/abhisheklandge77/static/js/main.db45118e.js",
     "static/js/787.a30b6cce.chunk.js": "/abhisheklandge77/static/js/787.a30b6cce.chunk.js",
     "static/media/movie-heist-project.png": "/abhisheklandge77/static/media/movie-heist-project.fb31a9df88750b1375c2.png",
     "static/media/icomoon.svg?srf3rx": "/abhisheklandge77/static/media/icomoon.d8bb08cd812ea9df189b.svg",
@@ -15,12 +15,12 @@
     "static/media/logo-black-background.png": "/abhisheklandge77/static/media/logo-black-background.971ee9a1bf35fc4181f1.png",
     "static/media/live-chat-project.png": "/abhisheklandge77/static/media/live-chat-project.aca330ccc1065abfcce8.png",
     "index.html": "/abhisheklandge77/index.html",
-    "main.151a82d9.css.map": "/abhisheklandge77/static/css/main.151a82d9.css.map",
-    "main.abd13e9f.js.map": "/abhisheklandge77/static/js/main.abd13e9f.js.map",
+    "main.c1c9c7bd.css.map": "/abhisheklandge77/static/css/main.c1c9c7bd.css.map",
+    "main.db45118e.js.map": "/abhisheklandge77/static/js/main.db45118e.js.map",
     "787.a30b6cce.chunk.js.map": "/abhisheklandge77/static/js/787.a30b6cce.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.151a82d9.css",
-    "static/js/main.abd13e9f.js"
+    "static/css/main.c1c9c7bd.css",
+    "static/js/main.db45118e.js"
   ]
 }
